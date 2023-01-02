@@ -1,0 +1,168 @@
+@media only screen and (max-width:1024px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+
+    .wrapper {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+} 
+
+
+/* upto 991 px  */
+
+
+
+@media only screen and  (max-width:991px){
+
+    h4{
+        font-size: 1rem;
+        margin-bottom : .5rem;
+    }
+    
+    p{
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+    
+    .text-content{
+        width: 100%;
+    }
+
+/* banner 1 start here  */
+
+#home{
+    padding: 4.7rem 0 0.3rem 0;
+}
+
+/* navbar  */
+
+.navigation-wrap .navbar-brand img{
+    height: 3rem;
+} 
+.navigation-wrap{
+    text-align: center;
+    background-color: var(--black-color);
+}
+.navbar-toggler{
+    color: var(--text-color);
+}
+.navbar-toggler i{
+    color: var(--text-color);
+    line-height: 2;
+}
+.navigation-wrap .nav-link{
+    line-height: 2rem;
+
+}
+
+/* banner */
+.hero-slider .carousel-caption{
+    transform: translate(-70%, -50%);
+}
+
+/* feature start here */
+
+.features .card .icon {
+    margin-bottom: 1.5rem;
+}
+
+ }
+
+
+
+
+ /* upto 767 px  */
+
+
+
+ @media only screen and  (max-width:767px){
+   
+/* banner */
+.hero-slider .carousel-caption{
+    transform: translate(-45%, -70%);
+}
+
+.about-section .carousel-inner{
+    border-radius: 0 0 2.5rem;
+} 
+
+ }
+
+
+
+
+
+
+
+ /* upto 575 px  */
+
+
+
+ @media only screen and (max-width:575px) 
+{   h1{
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+}
+h2{
+    font-size: 1.25rem;
+    line-height: 1rem;
+    margin-bottom: 5px;
+}
+.about-slider{
+    width: 50%;
+    margin: auto;
+}
+.middle{
+    text-align: center;
+    margin-top: 20%;
+}
+h2::before{
+    left: 46%;
+}
+h2{
+    line-height: 2rem;
+}
+.middle2{
+    text-align: center;
+    margin-top: 5%;
+}
+.midimg{
+    width: 50%;
+    margin: auto;
+}
+#zoom-img,#zoom-img-1,#zoom-img-2{
+    height: 13rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+}
+
+
+
+
+
+/* upto 430 px  */
+
+
+
+@media only screen and (max-width:430px){
+    .hero-slider .carousel-caption p{
+        font-size: .75rem;
+        line-height: 1.125rem;
+    }
+    .features .card {
+        cursor: pointer;
+        padding-left: 2rem;
+    }
+}
+
+
+
+

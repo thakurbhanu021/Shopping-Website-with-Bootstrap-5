@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+        integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="custom-style.css">
+
+    <link rel="stylesheet" href="responsivestyle.css">
+
+
+    <title>Headphones E-Commerce Website</title>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- header desgin -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav"
+                    aria-controls="navbarnav" aria-expanded="false" aria-label="Toggle-navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#home" aria-current="page" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#headphones" class="nav-link">Headphones</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#contactus" class="nav-link">Contact Us </a>
+                        </li> -->
+
+                        <button class="btn main-btn" type="button" data-bs-toggle="modal" data-bs-target="#mymodal">Buy
+                            Now</button>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section-1 top banner  -->
+
+    <section id="home" class="hero-slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="images/bg/bg-1.jpg" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption col-md-6 col-10 col-offset-md-6">
+                        <h2>Live Smart</h2>
+                        <h1>Hear <span>Smart</span></h1>
+                        <p>Stylish, Folded design with Active Noise Cancellation for crystal clear audio </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg/bg-2.jpg" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption  col-md-6 col-10 col-offset-md-6">
+                        <h2>Live Smart</h2>
+                        <h1>Hear <span>Smart</span></h1>
+                        <p>Stylish, Folded design with Active Noise Cancellation for crystal clear audio </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg/bg-3.jpg" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption  col-md-6 col-10 col-offset-md-6">
+                        <h2>Live Smart</h2>
+                        <h1>Hear <span>Smart</span></h1>
+                        <p>Stylish, Folded design with Active Noise Cancellation for crystal clear audio </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- section 2 about -->
+
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-lg-5 col-md-5 col-sm-5 mb-lg-0 about-slider">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="images/img/img-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="images/img/img-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/img/img-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 text-sec px-lg-5 middle ">
+
+                        <h2>Loud & Clear <br> Music</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, debitis ducimus
+                            exercitationem corporis maxime magnam molestias quo pariatur, quidem dolorem velit
+                            asperiores, qui ipsa voluptatem.</p>
+                        <button class="btn main-btn">Buy Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 feature  -->
+
+    <section id="features">
+        <div class=" features wrapper">
+            <div class="container">
+                <div class="row pt-md-5 pt-2 ">
+                    <div class=" col-lg-5 col-md-5 col-sm-5 col-lg-0 mb-5 text-sec middle2">
+                        <h2> Wear it with ease & comfort ever.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos vel incidunt voluptatem
+                            quaerat officiis!</p>
+                        <div class="feature-img-box midimg">
+                            <img src="images/img/features.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 mt-lg-0 mb-5">
+                        <div class="row">
+                            <div class="card col-6 border-0 mb-3">
+                                <div class="icon">
+                                    <img src="images/img/wifi.png" alt="wifi" class="img-fluid">
+                                </div>
+                                <h4>Wireless</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.</p>
+
+
+                            </div>
+                            <div class="card col-6 border-0 mb-3">
+                                <div class="icon">
+                                    <img src="images/img/noise.png" alt="noise" class="img-fluid">
+                                </div>
+                                <h4>Noise Cancelling</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.</p>
+
+
+                            </div>
+                            <div class="card col-6 border-0 mb-3">
+                                <div class="icon">
+                                    <img src="images/img/sound.png" alt="noise" class="img-fluid">
+                                </div>
+                                <h4>Wireless</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.</p>
+
+
+                            </div>
+                            <div class="card col-6 border-0 mb-3">
+                                <div class="icon">
+                                    <img src="images/img/bluetooth.png" alt="noise" class="img-fluid">
+                                </div>
+                                <h4>BLuetooth</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.</p>
+
+
+                            </div>
+                            <div class="card col-6 border-0 mb-3">
+                                <div class="icon">
+                                    <img src="images/img/microfon.png" alt="noise" class="img-fluid">
+                                </div>
+                                <h4>Microphone</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 4 headphone start here  -->
+
+    <section id="headphones">
+        <div class="choose wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  text-center mb-5">
+                        <h2> Choose Your wireless headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequatur nostrum.
+                            Dolorum est officia quia.</p>
+
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-4">
+                        <div class="card border-0 text-center">
+                            <div class="product-img" id="zoom-img">
+
+                            </div>
+                            <div class="product-des p-md-4 p-1">
+                                <div class="product-star pb-3">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <a href="javascript:void(0)">
+                                    <h4>On-Ear-Headphones</h4>
+                                </a>
+                                <div class="product-price">
+                                    <p>RS. 750.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card border-0 text-center">
+                            <div class="product-img " id="zoom-img-1">
+
+                            </div>
+                            <div class="product-des p-md-4 p-1">
+                                <div class="product-star pb-3">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <a href="javascript:void(0)">
+                                    <h4>Light-Headphones</h4>
+                                </a>
+                                <div class="product-price">
+                                    <p>RS. 850.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card border-0 text-center">
+                            <div class="product-img " id="zoom-img-2">
+
+                            </div>
+                            <div class="product-des p-md-4 p-1">
+                                <div class="product-star pb-3">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <a href="javascript:void(0)">
+                                    <h4>Kids-Headphones</h4>
+                                </a>
+                                <div class="product-price">
+                                    <p>RS. 550.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 5 style start here  -->
+
+    <div>
+        <div class="style-section wrapper mb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class=" col-lg-5 col-md-5 col-sm-5 mb-5 style-img midimg">
+                        <img src="images/img/headphone-img.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 text-sec position-relative middle">
+                        <h2> Sterlined Headphones <br>Style 2021</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, atque numquam
+                            asperiores exercitationem ipsum adipisci nemo aliquid beatae accusamus architecto reiciendis
+                            quos nam fuga ad.
+                        </p>
+                        <button class="btn main-btn mt-2">Buy Now</button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- modal with datepicker  -->
+
+    <div class="modal fade" id="mymodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Shipping Details</h4>
+                    <button class="btn btn-info btn-md" type="button" data-bs-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name1" class="mb-2">Name:</label>
+                            <input type="text" class="form-control mb-3" id="name1" placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Address" class="mb-2">Address:</label>
+                            <input type="text" class="form-control mb-3" id="Address"
+                                placeholder="Enter your full address">
+                        </div>
+                        <div class="form-group ">
+                            <label for="date" class="mb-2">Select date of delivery:</label>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input id="datepicker2" class="form-control mb-3"
+                                    placeholder="Enter the expected delivery date ">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    </span>
+
+                                </span>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+        integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker2').datetimepicker({});
+        });
+    </script>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
